@@ -58,7 +58,7 @@ const familyCount = document.getElementById("family-count");
 const familyMembers = document.getElementById("family-members");
 const guestFamilies = Array.isArray(window.WEDDING_GUESTS) ? window.WEDDING_GUESTS : [];
 const rsvpTrackingConfig = {
-    appsScriptUrl: ""
+    appsScriptUrl: "https://script.google.com/macros/s/AKfycbwoIlfcJ6JGWlWEEH_NK0ZdSarETwX62ISaDnEEbUAdiHufLPUKd0x7a49q-YrWCchE/exec"
 };
 
 let selectedFamily = null;
